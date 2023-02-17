@@ -107,29 +107,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Bean Validation Implementation 
-           Provides portable constraints such as @Email 
-           Hibernate Validator is shipped in WildFly / JBoss EAP -->
-        <dependency>
-            <groupId>org.hibernate.validator</groupId>
-            <artifactId>hibernate-validator</artifactId>
-            <scope>provided</scope>
-        </dependency>
-
-        <!-- Import the JPA API, we use provided scope as the API is included in WildFly / JBoss EAP -->
-        <dependency>
-            <groupId>jakarta.persistence</groupId>
-            <artifactId>jakarta.persistence-api</artifactId>
-            <scope>provided</scope>
-        </dependency>
-
-        <!-- Import the JSF API, we use provided scope as the API is included in WildFly / JBoss EAP -->
-        <dependency>
-            <groupId>jakarta.faces</groupId>
-            <artifactId>jakarta.faces-api</artifactId>
-            <scope>provided</scope>
-        </dependency>
-
         <!-- Import the JAX-RS API, we use provided scope as the API is included in WildFly / JBoss EAP -->
         <dependency>
             <groupId>jakarta.ws.rs</groupId>
@@ -144,12 +121,6 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- Import the EJB API, we use provided scope as the API is included in WildFly / JBoss EAP -->
-        <dependency>
-            <groupId>jakarta.ejb</groupId>
-            <artifactId>jakarta.ejb-api</artifactId>
-            <scope>provided</scope>
-        </dependency>
         <!-- Required for e.g. "javax.annotation.PostConstruct" -->
         <dependency>
             <groupId>jakarta.annotation</groupId>
